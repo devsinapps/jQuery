@@ -1,0 +1,72 @@
+html body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html body #wrapper .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+html body #wrapper .navbar .container {
+  position: relative;
+}
+html body #wrapper .navbar .container .collapse {
+  position: absolute;
+  right: 0;
+}
+html body #wrapper .content {
+  position: relative;
+  top: 60px;
+  width: 100%;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer {
+  margin-bottom: 10px;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer ul li img {
+  width: 100px;
+  height: 100px;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer blockquote {
+  display: none;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer blockquote:first-of-type {
+  display: block;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer .rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer .rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer .rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+html body #wrapper .content .container .row .col-lg-12 .layer .rslides img {
+  display: block;
+  height: auto;
+  width: 100%;
+  border: 0;
+}
+html body #wrapper .content .container .row .col-lg-12 .toggle {
+  background-color: red;
+  height: 300px;
+  transition: all .3s;
+}
+
+/*# sourceMappingURL=main.css.map */
